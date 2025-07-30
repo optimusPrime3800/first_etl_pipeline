@@ -1,0 +1,24 @@
+[2025-05-25T07:11:49.915+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-25T07:11:51.575+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_file_to_psql.move_data_file scheduled__2025-04-16T00:00:00+00:00 [queued]>
+[2025-05-25T07:11:52.120+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_file_to_psql.move_data_file scheduled__2025-04-16T00:00:00+00:00 [queued]>
+[2025-05-25T07:11:52.187+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-05-25T07:11:53.135+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): move_data_file> on 2025-04-16 00:00:00+00:00
+[2025-05-25T07:11:53.974+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1687) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-25T07:11:54.073+0000] {standard_task_runner.py:72} INFO - Started process 1748 to run task
+[2025-05-25T07:11:54.004+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'load_file_to_psql', 'move_data_file', 'scheduled__2025-04-16T00:00:00+00:00', '--job-id', '244', '--raw', '--subdir', 'DAGS_FOLDER/data_quality.py', '--cfg-path', '/tmp/tmpk7bnwl0o']
+[2025-05-25T07:11:54.157+0000] {standard_task_runner.py:105} INFO - Job 244: Subtask move_data_file
+[2025-05-25T07:11:57.459+0000] {task_command.py:467} INFO - Running <TaskInstance: load_file_to_psql.move_data_file scheduled__2025-04-16T00:00:00+00:00 [running]> on host b4cf172ed0b9
+[2025-05-25T07:12:00.458+0000] {job.py:229} INFO - Heartbeat recovered after 15.05 seconds
+[2025-05-25T07:12:04.169+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='https://t.me/Shust_DE' AIRFLOW_CTX_DAG_OWNER='@Shust_DE' AIRFLOW_CTX_DAG_ID='load_file_to_psql' AIRFLOW_CTX_TASK_ID='move_data_file' AIRFLOW_CTX_EXECUTION_DATE='2025-04-16T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-16T00:00:00+00:00'
+[2025-05-25T07:12:04.221+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-25T07:12:06.211+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-05-25T07:12:06.398+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'mkdir -p /tmp/processed_data/ && mv /tmp/data.csv /tmp/processed_data/']
+[2025-05-25T07:12:08.203+0000] {subprocess.py:99} INFO - Output:
+[2025-05-25T07:12:08.790+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-05-25T07:12:09.818+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-25T07:12:09.852+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=load_file_to_psql, task_id=move_data_file, run_id=scheduled__2025-04-16T00:00:00+00:00, execution_date=20250416T000000, start_date=20250525T071151, end_date=20250525T071209
+[2025-05-25T07:12:12.356+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-25T07:12:14.061+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-25T07:12:14.241+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

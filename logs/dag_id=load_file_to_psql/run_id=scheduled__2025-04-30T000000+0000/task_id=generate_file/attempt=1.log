@@ -1,0 +1,22 @@
+[2025-05-25T07:12:08.245+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-25T07:12:09.613+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_file_to_psql.generate_file scheduled__2025-04-30T00:00:00+00:00 [queued]>
+[2025-05-25T07:12:10.194+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_file_to_psql.generate_file scheduled__2025-04-30T00:00:00+00:00 [queued]>
+[2025-05-25T07:12:10.410+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-05-25T07:12:11.741+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): generate_file> on 2025-04-30 00:00:00+00:00
+[2025-05-25T07:12:11.985+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1706) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-25T07:12:12.231+0000] {standard_task_runner.py:72} INFO - Started process 1760 to run task
+[2025-05-25T07:12:12.162+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'load_file_to_psql', 'generate_file', 'scheduled__2025-04-30T00:00:00+00:00', '--job-id', '247', '--raw', '--subdir', 'DAGS_FOLDER/data_quality.py', '--cfg-path', '/tmp/tmp760zwtf0']
+[2025-05-25T07:12:12.407+0000] {standard_task_runner.py:105} INFO - Job 247: Subtask generate_file
+[2025-05-25T07:12:15.141+0000] {task_command.py:467} INFO - Running <TaskInstance: load_file_to_psql.generate_file scheduled__2025-04-30T00:00:00+00:00 [running]> on host b4cf172ed0b9
+[2025-05-25T07:12:19.710+0000] {job.py:229} INFO - Heartbeat recovered after 25.45 seconds
+[2025-05-25T07:12:25.789+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='https://t.me/Shust_DE' AIRFLOW_CTX_DAG_OWNER='@Shust_DE' AIRFLOW_CTX_DAG_ID='load_file_to_psql' AIRFLOW_CTX_TASK_ID='generate_file' AIRFLOW_CTX_EXECUTION_DATE='2025-04-30T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-30T00:00:00+00:00'
+[2025-05-25T07:12:25.902+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-25T07:12:28.731+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-25T07:12:29.039+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-25T07:12:29.057+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=load_file_to_psql, task_id=generate_file, run_id=scheduled__2025-04-30T00:00:00+00:00, execution_date=20250430T000000, start_date=20250525T071209, end_date=20250525T071229
+[2025-05-25T07:12:28.275+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-25T07:12:30.106+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-25T07:12:30.207+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-05-25T07:12:30.284+0000] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics

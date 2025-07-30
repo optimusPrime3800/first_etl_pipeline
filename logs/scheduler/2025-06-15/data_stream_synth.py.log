@@ -1,0 +1,840 @@
+[2025-06-15T15:04:12.349+0000] {processor.py:186} INFO - Started process (PID=1443) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:04:12.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:04:12.418+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:04:12.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:04:14.369+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:04:14.096+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:04:14.506+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:04:14.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 2.528 seconds
+[2025-06-15T15:04:56.855+0000] {processor.py:186} INFO - Started process (PID=1461) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:04:56.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:04:56.966+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:04:56.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:04:58.271+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:04:58.029+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:04:58.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:04:58.972+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 2.439 seconds
+[2025-06-15T15:05:30.567+0000] {processor.py:186} INFO - Started process (PID=1472) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:05:30.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:05:30.666+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:05:30.648+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:05:31.404+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:05:31.231+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:05:31.435+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:05:31.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.364 seconds
+[2025-06-15T15:06:03.633+0000] {processor.py:186} INFO - Started process (PID=1483) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:06:03.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:06:03.700+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:06:03.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:06:04.531+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:06:04.291+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:06:04.610+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:06:05.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.635 seconds
+[2025-06-15T15:06:35.715+0000] {processor.py:186} INFO - Started process (PID=1495) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:06:35.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:06:35.768+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:06:35.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:06:35.877+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:06:35.850+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:06:35.893+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:06:36.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.483 seconds
+[2025-06-15T15:07:06.681+0000] {processor.py:186} INFO - Started process (PID=1505) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:07:06.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:07:06.725+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:07:06.723+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:07:06.996+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:07:06.894+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:07:07.009+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:07:07.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.712 seconds
+[2025-06-15T15:07:37.700+0000] {processor.py:186} INFO - Started process (PID=1517) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:07:37.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:07:37.730+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:07:37.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:07:38.172+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:07:38.104+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:07:38.215+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:07:38.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.758 seconds
+[2025-06-15T15:08:09.027+0000] {processor.py:186} INFO - Started process (PID=1529) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:08:09.043+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:08:09.077+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:08:09.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:08:09.193+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:08:09.168+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:08:09.198+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:08:09.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.463 seconds
+[2025-06-15T15:08:39.832+0000] {processor.py:186} INFO - Started process (PID=1539) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:08:39.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:08:39.847+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:08:39.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:08:39.907+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:08:39.889+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:08:39.912+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:08:39.983+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.173 seconds
+[2025-06-15T15:09:11.555+0000] {processor.py:186} INFO - Started process (PID=1551) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:09:11.573+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:09:11.622+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:09:11.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:09:11.965+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:09:11.943+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:09:11.994+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:09:12.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.631 seconds
+[2025-06-15T15:09:42.316+0000] {processor.py:186} INFO - Started process (PID=1563) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:09:42.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:09:42.335+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:09:42.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:09:42.471+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:09:42.458+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:09:42.475+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:09:42.573+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.294 seconds
+[2025-06-15T15:10:13.512+0000] {processor.py:186} INFO - Started process (PID=1575) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:10:13.515+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:10:13.523+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:10:13.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:10:13.576+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:10:13.566+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:10:13.580+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:10:13.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.154 seconds
+[2025-06-15T15:10:44.160+0000] {processor.py:186} INFO - Started process (PID=1587) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:10:44.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:10:44.176+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:10:44.175+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:10:44.233+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:10:44.218+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:10:44.237+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:10:44.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.194 seconds
+[2025-06-15T15:11:18.259+0000] {processor.py:186} INFO - Started process (PID=1599) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:11:18.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:11:18.364+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:11:18.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:11:20.877+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:11:20.458+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:11:21.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:11:21.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 3.185 seconds
+[2025-06-15T15:11:53.641+0000] {processor.py:186} INFO - Started process (PID=1611) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:11:53.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:11:53.670+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:11:53.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:11:54.229+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:11:54.167+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:11:54.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:11:54.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.795 seconds
+[2025-06-15T15:12:24.752+0000] {processor.py:186} INFO - Started process (PID=1623) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:12:24.755+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:12:24.764+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:12:24.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:12:24.824+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:12:24.813+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:12:24.829+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:12:24.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.156 seconds
+[2025-06-15T15:12:55.225+0000] {processor.py:186} INFO - Started process (PID=1635) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:12:55.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:12:55.239+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:12:55.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:12:55.302+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:12:55.286+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:12:55.307+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:12:55.386+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.197 seconds
+[2025-06-15T15:13:25.711+0000] {processor.py:186} INFO - Started process (PID=1647) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:13:25.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:13:25.732+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:13:25.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:13:25.871+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:13:25.857+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:13:25.876+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:13:25.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.253 seconds
+[2025-06-15T15:13:56.763+0000] {processor.py:186} INFO - Started process (PID=1659) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:13:56.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:13:56.785+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:13:56.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:13:56.897+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:13:56.883+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:13:56.901+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:13:57.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.279 seconds
+[2025-06-15T15:14:27.618+0000] {processor.py:186} INFO - Started process (PID=1671) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:14:27.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:14:27.680+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:14:27.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:14:27.791+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:14:27.775+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:14:27.799+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:14:27.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.415 seconds
+[2025-06-15T15:15:01.414+0000] {processor.py:186} INFO - Started process (PID=1683) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:15:01.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:15:01.472+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:15:01.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:15:01.965+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:15:01.891+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:15:01.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:15:02.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.871 seconds
+[2025-06-15T15:15:34.805+0000] {processor.py:186} INFO - Started process (PID=1700) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:15:34.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:15:34.843+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:15:34.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:15:35.951+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:15:35.802+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:15:36.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:15:36.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.525 seconds
+[2025-06-15T15:16:07.301+0000] {processor.py:186} INFO - Started process (PID=1711) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:16:07.304+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:16:07.320+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:16:07.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:16:07.524+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:16:07.513+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:16:07.527+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:16:07.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.366 seconds
+[2025-06-15T15:16:38.179+0000] {processor.py:186} INFO - Started process (PID=1723) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:16:38.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:16:38.205+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:16:38.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:16:38.275+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:16:38.263+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:16:38.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:16:38.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.199 seconds
+[2025-06-15T15:17:08.687+0000] {processor.py:186} INFO - Started process (PID=1733) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:17:08.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:17:08.698+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:17:08.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:17:08.790+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:17:08.774+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:17:08.796+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:17:08.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.206 seconds
+[2025-06-15T15:17:39.127+0000] {processor.py:186} INFO - Started process (PID=1745) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:17:39.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:17:39.145+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:17:39.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:17:39.207+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:17:39.194+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:17:39.212+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:17:39.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.160 seconds
+[2025-06-15T15:18:09.592+0000] {processor.py:186} INFO - Started process (PID=1757) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:18:09.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:18:09.602+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:18:09.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:18:09.662+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:18:09.649+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:18:09.666+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:18:09.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.151 seconds
+[2025-06-15T15:18:40.140+0000] {processor.py:186} INFO - Started process (PID=1769) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:18:40.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:18:40.153+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:18:40.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:18:40.213+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:18:40.201+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:18:40.218+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:18:40.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.151 seconds
+[2025-06-15T15:19:10.610+0000] {processor.py:186} INFO - Started process (PID=1781) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:19:10.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:19:10.622+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:19:10.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:19:10.686+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:19:10.673+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:19:10.691+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:19:10.745+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.157 seconds
+[2025-06-15T15:19:41.284+0000] {processor.py:186} INFO - Started process (PID=1793) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:19:41.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:19:41.305+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:19:41.303+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:19:41.375+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:19:41.359+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:19:41.413+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:19:41.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.226 seconds
+[2025-06-15T15:20:11.997+0000] {processor.py:186} INFO - Started process (PID=1806) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:20:12.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:20:12.014+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:20:12.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:20:12.134+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:20:12.102+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:20:12.142+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:20:12.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.307 seconds
+[2025-06-15T15:20:43.249+0000] {processor.py:186} INFO - Started process (PID=1818) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:20:43.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:20:43.263+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:20:43.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:20:43.322+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:20:43.311+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:20:43.326+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:20:43.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.179 seconds
+[2025-06-15T15:21:13.606+0000] {processor.py:186} INFO - Started process (PID=1829) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:21:13.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:21:13.618+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:21:13.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:21:13.668+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:21:13.658+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:21:13.672+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:21:13.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.156 seconds
+[2025-06-15T15:21:43.978+0000] {processor.py:186} INFO - Started process (PID=1841) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:21:43.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:21:43.994+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:21:43.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:21:44.070+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:21:44.058+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:21:44.074+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:21:44.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.189 seconds
+[2025-06-15T15:22:14.693+0000] {processor.py:186} INFO - Started process (PID=1853) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:22:14.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:22:14.728+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:22:14.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:22:15.170+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:22:15.093+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:22:15.203+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:22:15.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.797 seconds
+[2025-06-15T15:22:47.408+0000] {processor.py:186} INFO - Started process (PID=1866) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:22:47.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:22:47.447+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:22:47.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:22:47.535+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:22:47.522+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:22:47.539+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:22:47.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.411 seconds
+[2025-06-15T15:23:20.393+0000] {processor.py:186} INFO - Started process (PID=1878) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:23:20.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:23:20.452+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:23:20.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:23:20.618+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:23:20.598+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:23:20.631+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:23:20.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.516 seconds
+[2025-06-15T15:23:51.607+0000] {processor.py:186} INFO - Started process (PID=1888) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:23:51.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:23:51.642+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:23:51.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:23:51.737+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:23:51.720+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:23:51.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:23:51.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.333 seconds
+[2025-06-15T15:24:22.225+0000] {processor.py:186} INFO - Started process (PID=1900) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:24:22.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:24:22.239+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:24:22.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:24:22.294+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:24:22.283+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:24:22.302+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:24:22.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.234 seconds
+[2025-06-15T15:24:52.876+0000] {processor.py:186} INFO - Started process (PID=1912) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:24:52.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:24:52.905+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:24:52.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:24:53.246+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:24:53.115+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:24:53.251+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:24:53.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.764 seconds
+[2025-06-15T15:25:24.531+0000] {processor.py:186} INFO - Started process (PID=1924) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:25:24.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:25:24.595+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:25:24.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:25:24.776+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:25:24.699+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:25:24.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:25:24.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.528 seconds
+[2025-06-15T15:25:55.716+0000] {processor.py:186} INFO - Started process (PID=1936) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:25:55.719+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:25:55.746+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:25:55.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:25:55.832+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:25:55.806+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:25:55.837+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:25:55.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.316 seconds
+[2025-06-15T15:26:26.626+0000] {processor.py:186} INFO - Started process (PID=1947) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:26:26.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:26:26.673+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:26:26.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:26:26.769+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:26:26.756+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:26:26.779+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:26:26.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.318 seconds
+[2025-06-15T15:26:57.796+0000] {processor.py:186} INFO - Started process (PID=1958) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:26:57.811+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:26:57.828+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:26:57.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:26:57.905+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:26:57.895+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:26:57.917+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:26:58.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.310 seconds
+[2025-06-15T15:27:29.717+0000] {processor.py:186} INFO - Started process (PID=1970) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:27:29.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:27:29.769+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:27:29.768+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:27:31.038+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:27:30.686+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:27:31.117+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:27:31.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.618 seconds
+[2025-06-15T15:28:03.937+0000] {processor.py:186} INFO - Started process (PID=1981) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:28:03.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:28:03.969+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:28:03.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:28:04.781+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:28:04.584+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:28:04.835+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:28:05.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.204 seconds
+[2025-06-15T15:28:37.655+0000] {processor.py:186} INFO - Started process (PID=1992) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:28:37.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:28:37.719+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:28:37.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:28:38.367+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:28:38.224+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:28:38.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:28:38.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.165 seconds
+[2025-06-15T15:29:09.361+0000] {processor.py:186} INFO - Started process (PID=2011) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:29:09.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:29:09.395+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:29:09.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:29:09.588+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:29:09.574+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:29:09.593+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:29:09.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.384 seconds
+[2025-06-15T15:29:40.447+0000] {processor.py:186} INFO - Started process (PID=2023) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:29:40.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:29:40.467+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:29:40.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:29:40.556+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:29:40.536+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:29:40.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:29:40.650+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.248 seconds
+[2025-06-15T15:30:13.103+0000] {processor.py:186} INFO - Started process (PID=2034) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:30:13.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:30:13.165+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:30:13.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:30:13.401+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:30:13.361+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:30:13.412+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:30:13.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.559 seconds
+[2025-06-15T15:30:44.108+0000] {processor.py:186} INFO - Started process (PID=2046) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:30:44.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:30:44.130+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:30:44.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:30:44.298+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:30:44.280+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:30:44.302+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:30:44.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.389 seconds
+[2025-06-15T15:31:15.713+0000] {processor.py:186} INFO - Started process (PID=2057) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:31:15.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:31:15.771+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:31:15.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:31:16.614+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:31:16.435+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:31:16.659+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:31:16.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.198 seconds
+[2025-06-15T15:31:51.659+0000] {processor.py:186} INFO - Started process (PID=2069) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:31:51.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:31:51.730+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:31:51.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:31:54.834+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:31:54.595+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:31:54.882+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:31:55.078+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 3.475 seconds
+[2025-06-15T15:32:27.321+0000] {processor.py:186} INFO - Started process (PID=2081) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:32:27.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:32:27.368+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:32:27.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:32:28.634+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:32:28.234+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:32:28.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:32:29.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 1.739 seconds
+[2025-06-15T15:33:00.145+0000] {processor.py:186} INFO - Started process (PID=2093) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:33:00.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:33:00.192+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:33:00.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:33:00.293+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:33:00.276+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:33:00.297+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:33:00.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.342 seconds
+[2025-06-15T15:33:30.931+0000] {processor.py:186} INFO - Started process (PID=2105) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:33:30.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:33:30.956+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:33:30.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:33:31.084+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:33:31.058+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:33:31.092+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:33:31.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.363 seconds
+[2025-06-15T15:34:02.167+0000] {processor.py:186} INFO - Started process (PID=2117) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:34:02.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:34:02.197+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:34:02.196+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:34:02.436+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:34:02.395+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:34:02.449+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:34:02.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 0.597 seconds
+[2025-06-15T15:34:35.943+0000] {processor.py:186} INFO - Started process (PID=2129) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:34:36.035+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:34:36.085+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:34:36.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:34:38.172+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:34:37.634+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:34:38.385+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:34:38.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 2.896 seconds
+[2025-06-15T15:35:21.684+0000] {processor.py:186} INFO - Started process (PID=2147) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:35:21.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T15:35:21.843+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:35:21.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:35:25.469+0000] {logging_mixin.py:190} INFO - [2025-06-15T15:35:24.785+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-15T15:35:25.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T15:35:25.992+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 4.388 seconds
+[2025-06-15T18:35:42.794+0000] {processor.py:186} INFO - Started process (PID=2151) to work on /opt/airflow/dags/data_stream_synth.py
+[2025-06-15T18:35:42.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_stream_synth.py for tasks to queue
+[2025-06-15T18:35:42.829+0000] {logging_mixin.py:190} INFO - [2025-06-15T18:35:42.828+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_stream_synth.py
+[2025-06-16T06:50:21.839+0000] {logging_mixin.py:190} INFO - [2025-06-16T06:50:20.133+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_stream_synth.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_stream_synth.py", line 4, in <module>
+    import faker
+ModuleNotFoundError: No module named 'faker'
+[2025-06-16T06:50:22.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_stream_synth.py
+[2025-06-16T06:50:23.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_stream_synth.py took 7.384 seconds

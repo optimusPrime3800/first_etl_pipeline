@@ -1,0 +1,869 @@
+[2025-05-26T07:09:19.480+0000] {processor.py:186} INFO - Started process (PID=1824) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:09:19.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:09:19.599+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:09:19.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:09:24.279+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:09:24.222+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:09:24.328+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:09:24.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 5.165 seconds
+[2025-05-26T07:09:56.076+0000] {processor.py:186} INFO - Started process (PID=1832) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:09:56.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:09:56.137+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:09:56.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:10:00.799+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:10:00.735+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:10:00.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:10:01.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 5.277 seconds
+[2025-05-26T07:10:31.543+0000] {processor.py:186} INFO - Started process (PID=1841) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:10:31.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:10:31.551+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:10:31.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:19:55.003+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:19:54.582+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:19:55.213+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:20:25.538+0000] {processor.py:186} INFO - Started process (PID=1849) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:20:25.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:20:25.548+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:20:25.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:20:26.549+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:20:26.527+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:20:26.559+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:20:26.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.082 seconds
+[2025-05-26T07:20:56.968+0000] {processor.py:186} INFO - Started process (PID=1856) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:20:56.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:20:57.007+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:20:57.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:20:58.592+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:20:58.569+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:20:58.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:20:58.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.744 seconds
+[2025-05-26T07:21:29.294+0000] {processor.py:186} INFO - Started process (PID=1863) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:21:29.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:21:29.302+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:21:29.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:21:30.085+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:21:30.065+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:21:30.100+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:21:30.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.880 seconds
+[2025-05-26T07:22:00.806+0000] {processor.py:186} INFO - Started process (PID=1871) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:22:00.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:22:00.813+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:22:00.812+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:22:01.826+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:22:01.808+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:22:01.837+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:22:01.884+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.098 seconds
+[2025-05-26T07:22:32.601+0000] {processor.py:186} INFO - Started process (PID=1885) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:22:32.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:22:32.608+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:22:32.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:22:33.437+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:22:33.419+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:22:33.450+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:22:33.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.902 seconds
+[2025-05-26T07:23:04.329+0000] {processor.py:186} INFO - Started process (PID=1893) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:23:04.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:23:04.356+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:23:04.355+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:23:05.899+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:23:05.879+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:23:05.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:23:06.013+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.722 seconds
+[2025-05-26T07:23:36.243+0000] {processor.py:186} INFO - Started process (PID=1901) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:23:36.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:23:36.255+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:23:36.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:23:37.248+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:23:37.227+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:23:37.261+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:23:37.317+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.113 seconds
+[2025-05-26T07:24:07.867+0000] {processor.py:186} INFO - Started process (PID=1910) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:24:07.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:24:07.874+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:24:07.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:24:08.848+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:24:08.824+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:24:08.858+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:24:08.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.052 seconds
+[2025-05-26T07:24:39.473+0000] {processor.py:186} INFO - Started process (PID=1918) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:24:39.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:24:39.480+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:24:39.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:24:42.230+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:24:42.180+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:24:42.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:24:42.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 2.940 seconds
+[2025-05-26T07:25:12.665+0000] {processor.py:186} INFO - Started process (PID=1926) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:25:12.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:25:12.673+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:25:12.671+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:25:13.334+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:25:13.316+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:25:13.345+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:25:13.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.738 seconds
+[2025-05-26T07:25:44.158+0000] {processor.py:186} INFO - Started process (PID=1934) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:25:44.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:25:44.167+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:25:44.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:25:45.455+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:25:45.437+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:25:45.469+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:25:45.540+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.410 seconds
+[2025-05-26T07:26:16.134+0000] {processor.py:186} INFO - Started process (PID=1942) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:26:16.138+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:26:16.145+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:26:16.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:26:16.947+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:26:16.928+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:26:16.960+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:26:17.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.903 seconds
+[2025-05-26T07:26:48.958+0000] {processor.py:186} INFO - Started process (PID=1950) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:26:49.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:26:49.225+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:26:49.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:26:54.039+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:26:53.888+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:26:54.082+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:26:54.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 5.333 seconds
+[2025-05-26T07:27:25.116+0000] {processor.py:186} INFO - Started process (PID=1958) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:27:25.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:27:25.145+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:27:25.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:27:27.821+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:27:27.644+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:27:27.908+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:27:28.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 2.993 seconds
+[2025-05-26T07:27:58.645+0000] {processor.py:186} INFO - Started process (PID=1966) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:27:58.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:27:58.653+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:27:58.652+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:27:59.813+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:27:59.795+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:27:59.825+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:27:59.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.277 seconds
+[2025-05-26T07:28:30.253+0000] {processor.py:186} INFO - Started process (PID=1974) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:28:30.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:28:30.261+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:28:30.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:28:30.944+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:28:30.924+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:28:30.955+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:28:31.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.760 seconds
+[2025-05-26T07:29:01.168+0000] {processor.py:186} INFO - Started process (PID=1982) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:29:01.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:29:01.174+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:29:01.174+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:29:01.890+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:29:01.870+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:29:01.902+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:29:01.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.801 seconds
+[2025-05-26T07:29:32.335+0000] {processor.py:186} INFO - Started process (PID=1990) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:29:32.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:29:32.348+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:29:32.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:29:33.279+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:29:33.263+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:29:33.291+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:29:33.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.042 seconds
+[2025-05-26T07:30:04.035+0000] {processor.py:186} INFO - Started process (PID=2004) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:30:04.038+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:30:04.044+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:30:04.043+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:30:05.136+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:30:05.121+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:30:05.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:30:05.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.170 seconds
+[2025-05-26T07:30:35.715+0000] {processor.py:186} INFO - Started process (PID=2012) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:30:35.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:30:35.723+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:30:35.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:30:36.357+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:30:36.338+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:30:36.366+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:30:36.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.725 seconds
+[2025-05-26T07:31:06.555+0000] {processor.py:186} INFO - Started process (PID=2019) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:31:06.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:31:06.566+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:31:06.565+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:31:07.590+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:31:07.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:31:07.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:31:07.656+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.120 seconds
+[2025-05-26T07:31:38.466+0000] {processor.py:186} INFO - Started process (PID=2028) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:31:38.470+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:31:38.473+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:31:38.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:31:39.194+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:31:39.175+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:31:39.206+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:31:39.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.828 seconds
+[2025-05-26T07:32:09.908+0000] {processor.py:186} INFO - Started process (PID=2036) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:32:09.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:32:09.917+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:32:09.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:32:10.553+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:32:10.535+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:32:10.562+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:32:10.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.710 seconds
+[2025-05-26T07:32:41.271+0000] {processor.py:186} INFO - Started process (PID=2044) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:32:41.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:32:41.277+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:32:41.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:32:42.011+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:32:41.994+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:32:42.023+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:32:42.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.811 seconds
+[2025-05-26T07:33:12.230+0000] {processor.py:186} INFO - Started process (PID=2052) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:33:12.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:33:12.238+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:33:12.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:33:12.904+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:33:12.887+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:33:12.913+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:33:12.959+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.749 seconds
+[2025-05-26T07:33:43.583+0000] {processor.py:186} INFO - Started process (PID=2060) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:33:43.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:33:43.598+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:33:43.596+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:33:45.192+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:33:45.145+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:33:45.204+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:33:45.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.810 seconds
+[2025-05-26T07:34:16.311+0000] {processor.py:186} INFO - Started process (PID=2067) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:34:16.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:34:16.319+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:34:16.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:34:17.385+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:34:17.360+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:34:17.397+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:34:17.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.169 seconds
+[2025-05-26T07:34:48.361+0000] {processor.py:186} INFO - Started process (PID=2075) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:34:48.365+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:34:48.373+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:34:48.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:34:49.729+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:34:49.710+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:34:49.739+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:34:49.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.456 seconds
+[2025-05-26T07:35:20.078+0000] {processor.py:186} INFO - Started process (PID=2083) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:35:20.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:35:20.084+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:35:20.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:35:21.045+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:35:21.026+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:35:21.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:35:21.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.039 seconds
+[2025-05-26T07:35:51.781+0000] {processor.py:186} INFO - Started process (PID=2091) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:35:51.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:35:51.787+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:35:51.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:35:52.517+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:35:52.500+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:35:52.528+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:35:52.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.811 seconds
+[2025-05-26T07:36:23.394+0000] {processor.py:186} INFO - Started process (PID=2099) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:36:23.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:36:23.400+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:36:23.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:36:24.058+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:36:24.041+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:36:24.068+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:36:24.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.736 seconds
+[2025-05-26T07:36:54.903+0000] {processor.py:186} INFO - Started process (PID=2107) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:36:54.906+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:36:54.913+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:36:54.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:36:55.925+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:36:55.905+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:36:55.938+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:36:55.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.113 seconds
+[2025-05-26T07:37:26.533+0000] {processor.py:186} INFO - Started process (PID=2115) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T07:37:26.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T07:37:26.539+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:37:26.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:37:27.161+0000] {logging_mixin.py:190} INFO - [2025-05-26T07:37:27.143+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T07:37:27.171+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T07:37:27.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.689 seconds
+[2025-05-26T08:20:58.600+0000] {processor.py:186} INFO - Started process (PID=2123) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:20:58.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:20:58.659+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:20:58.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:21:01.824+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:21:01.365+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:21:01.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:21:02.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 3.531 seconds
+[2025-05-26T08:21:33.175+0000] {processor.py:186} INFO - Started process (PID=2131) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:21:33.196+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:21:33.208+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:21:33.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:21:35.068+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:21:35.046+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:21:35.080+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:21:35.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 2.002 seconds
+[2025-05-26T08:22:06.238+0000] {processor.py:186} INFO - Started process (PID=2138) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:22:06.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:22:06.311+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:22:06.307+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:22:10.585+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:22:10.411+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:22:10.684+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:22:10.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 4.819 seconds
+[2025-05-26T08:22:42.906+0000] {processor.py:186} INFO - Started process (PID=2146) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:22:42.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:22:42.980+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:22:42.977+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:22:47.055+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:22:46.802+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:22:47.106+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:22:47.364+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 4.518 seconds
+[2025-05-26T08:23:17.914+0000] {processor.py:186} INFO - Started process (PID=2154) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:23:17.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:23:17.943+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:23:17.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:23:20.934+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:23:20.498+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:23:21.028+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:23:21.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 3.356 seconds
+[2025-05-26T08:23:51.755+0000] {processor.py:186} INFO - Started process (PID=2162) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:23:51.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:23:51.773+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:23:51.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:23:56.970+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:23:56.854+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:23:57.018+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:23:57.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 5.421 seconds
+[2025-05-26T08:24:27.557+0000] {processor.py:186} INFO - Started process (PID=2176) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:24:27.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:24:27.569+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:24:27.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:24:28.569+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:24:28.549+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:24:28.581+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:24:28.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.136 seconds
+[2025-05-26T08:24:59.196+0000] {processor.py:186} INFO - Started process (PID=2184) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:24:59.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:24:59.204+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:24:59.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:25:00.188+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:25:00.169+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:25:00.199+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:25:00.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.084 seconds
+[2025-05-26T08:25:31.314+0000] {processor.py:186} INFO - Started process (PID=2192) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:25:31.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:25:31.331+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:25:31.330+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:25:33.252+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:25:33.224+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:25:33.266+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:25:33.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 2.076 seconds
+[2025-05-26T08:26:06.426+0000] {processor.py:186} INFO - Started process (PID=2200) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:26:06.491+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:26:06.671+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:26:06.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:26:11.440+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:26:11.406+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:26:11.470+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:26:11.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 5.453 seconds
+[2025-05-26T08:26:42.431+0000] {processor.py:186} INFO - Started process (PID=2209) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:26:42.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:26:42.445+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:26:42.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:26:44.834+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:26:44.788+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:26:44.867+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:26:45.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 2.621 seconds
+[2025-05-26T08:27:16.840+0000] {processor.py:186} INFO - Started process (PID=2217) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:27:16.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:27:16.859+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:27:16.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:27:19.938+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:27:19.903+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:27:19.969+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:27:20.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 3.336 seconds
+[2025-05-26T08:27:50.595+0000] {processor.py:186} INFO - Started process (PID=2225) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:27:50.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:27:50.625+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:27:50.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:27:52.021+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:27:52.002+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:27:52.034+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:27:52.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.541 seconds
+[2025-05-26T08:28:23.264+0000] {processor.py:186} INFO - Started process (PID=2241) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:28:23.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:28:23.299+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:28:23.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:28:27.315+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:28:26.959+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:28:27.461+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:28:27.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 6.850 seconds
+[2025-05-26T08:29:02.179+0000] {processor.py:186} INFO - Started process (PID=2248) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:29:02.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:29:02.250+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:29:02.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:29:08.174+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:29:07.581+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:29:08.317+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:29:08.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 6.394 seconds
+[2025-05-26T08:29:39.294+0000] {processor.py:186} INFO - Started process (PID=2256) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:29:39.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:29:39.302+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:29:39.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:29:40.828+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:29:40.796+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:29:40.844+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:29:40.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.657 seconds
+[2025-05-26T08:30:11.684+0000] {processor.py:186} INFO - Started process (PID=2264) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:30:11.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:30:11.692+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:30:11.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:30:12.549+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:30:12.530+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:30:12.561+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:30:12.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 0.943 seconds
+[2025-05-26T08:30:42.868+0000] {processor.py:186} INFO - Started process (PID=2272) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:30:42.870+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:30:42.874+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:30:42.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:30:44.781+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:30:44.761+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:30:44.812+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:30:44.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 2.097 seconds
+[2025-05-26T08:31:16.018+0000] {processor.py:186} INFO - Started process (PID=2286) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:31:16.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:31:16.026+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:31:16.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:31:17.889+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:31:17.864+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:31:17.918+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:31:17.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 1.975 seconds
+[2025-05-26T08:31:48.871+0000] {processor.py:186} INFO - Started process (PID=2295) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:31:48.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:31:48.884+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:31:48.883+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:31:51.331+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:31:51.271+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:31:51.360+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:31:51.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 2.751 seconds
+[2025-05-26T08:32:22.766+0000] {processor.py:186} INFO - Started process (PID=2304) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T08:32:22.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T08:32:22.816+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:32:22.815+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:32:26.235+0000] {logging_mixin.py:190} INFO - [2025-05-26T08:32:26.191+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T08:32:26.266+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T08:32:26.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 3.703 seconds
+[2025-05-26T11:32:58.031+0000] {processor.py:186} INFO - Started process (PID=2313) to work on /opt/airflow/dags/data_quality.py
+[2025-05-26T11:32:58.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_quality.py for tasks to queue
+[2025-05-26T11:32:58.072+0000] {logging_mixin.py:190} INFO - [2025-05-26T11:32:58.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_quality.py
+[2025-05-26T11:33:01.347+0000] {logging_mixin.py:190} INFO - [2025-05-26T11:33:01.276+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_quality.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_quality.py", line 42, in <module>
+    generate_file = PythonOperator(
+                    ^^^^^^^^^^^^^^
+NameError: name 'PythonOperator' is not defined
+[2025-05-26T11:33:01.405+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_quality.py
+[2025-05-26T11:33:01.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_quality.py took 3.558 seconds
