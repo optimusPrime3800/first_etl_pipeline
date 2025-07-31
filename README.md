@@ -21,4 +21,4 @@ Redis - кэширование и очереди
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/amazagirov/etl_first.git
+   git clone https://github.com/gliglugla/etl_first.git
